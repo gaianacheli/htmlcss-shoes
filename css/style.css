@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.box-rosso{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    position: relative;
+}
+
+.box-rosso {
+    background-size: cover;
+}
+.box-rosso img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.text {
+    color: yellow;
+    font-size:  50px;
+    text-align: center;
+    font-weight:bold;
+    position: absolute;
+    left: 37%;
+    top: 75%;
+}
+@font-face {
+    font-family: 'Rubik Mono One', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+    
+}
